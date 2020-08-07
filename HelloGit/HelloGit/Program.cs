@@ -6,7 +6,14 @@ namespace HelloGit
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello Git!");
+            if (args[0] == "help")
+            {
+                Console.WriteLine("valamilyen bullshit szöveg");
+            }
+            else
+            {
+                Console.WriteLine("Hello Git");
+            }
         }
     }
 }
